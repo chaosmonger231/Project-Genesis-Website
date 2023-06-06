@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 200px;
+  height: 150px;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.box a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.box:hover {
+  background-color: #ddd;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0;
+  font-size: 5em;
+  font-weight: bold;
+  color: yellow;
+}
+
+body {
+  /* background-color: #e1f5fe; */
+  
+
+  background-image: url("pictures/cyberpunk.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
